@@ -1,0 +1,16 @@
+# Conan files
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conaninfo.txt
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Build files
+lib*.a
+package
+bin
+
