@@ -4,7 +4,7 @@ class Package(ConanFile):
     name = "Project"
     version = "master"
     license = "MIT"
-    url = "<Package recipe repository url here, for issues about the package>"
+    url = "https://github.com/testcca/Project.git"
     description = "<Description of Project here>"
     settings = "os", "compiler", "build_type", "arch"
     generators = "cmake"
