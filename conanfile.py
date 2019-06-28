@@ -10,7 +10,7 @@ class Package(ConanFile):
     generators = "cmake"
     exports_sources = "src/*"
     requires = (
-        "Component1/%s@conti/stable" % version,
+        "Component1/%s@demo/testing" % version,
     )
 
     def build(self):
